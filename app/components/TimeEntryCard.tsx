@@ -134,6 +134,7 @@ export function TimeEntryCard(props: {
             </Select>
             <Select
               showSearch
+              optionFilterProp="children"
               placeholder="Select a Task"
               value={props.timerData.task}
               style={{ width: '80%', marginTop: 10 }}
